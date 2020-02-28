@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Contact / Mallaury Triolet</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.session.js"></script>
+    <script type="text/javascript" src="js/jquery.lazy.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+<body>
+
+    <div id="nav">
+        <div id="logo"><a href="./index.html" class="menu-link" data-category="home"><strong style="color: #2C8599">Mallaury</strong> Triolet</a><span
+                style="color: grey; font-family:'latoRegular';">/ Contact</span></div>
+        <div id="menu" class="menu-fadeIn"><a href="./work.html" class="menu-link" data-category="work">Work</a><a href="./about.html"
+                class="menu-link" data-category="about">About</a></div>
+    </div>
+    <div id="container" data-category="work" data-slug="">
+        <div id="title" class="template"><span class="first-l"></span><span class="s">Feel free to contact me</span></div>
+        <div class="wrapper">
+            <div class="col-h animated fadeInUp" style="margin-bottom: 60px;">
+                <form name="contact-form" id="contact-form" action="./contact.php" method="POST">
+                    <div class="formRow"><input id="contact-name" type="text" name="contact-name" placeholder="Name"><span id="name-error"
+                            class="error"></span></div>
+                    <div class="formRow"><input id="contact-email" type="text" name="contact-email" placeholder="E-mail"><span
+                            id="email-error" class="error"></span></div>
+                    <div class="formRow"><textarea id="contact-message" rows="7" name="contact-message" placeholder="Your Message"></textarea><span
+                            id="detail-error" class="error"></span></div>
+                    <input type="hidden" name="form-submitted" value="1">
+                    <div class="last"><button id="contact-submit" type="submit" name="submit">Send over</button><span
+                            id="system-message"></span></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="social">
+            <a href="https://dribbble.com/mallaurytriolet/" target="_blank"><i class="fab fa-dribbble"></i></a>
+            <a href="https://www.linkedin.com/in/mallaury-triolet-936262b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="../contact.html" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/tilt.jquery.min.js"></script>
+
+</body>
+
+</html>
