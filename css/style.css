@@ -424,7 +424,7 @@ button {
 .first-l {
 	position: absolute;
 	top: 38px;
-	left: -16px;
+	left: 40px;
 	background: #DDDDDD;
 	height: 8px;
 	z-index: -1;
@@ -1377,4 +1377,11 @@ span.about-name {
 
 #coverPicture {
 	background-size: cover !important;
+}
+
+.return-arrow {
+	padding-top: -2px;
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
 }
